@@ -2,8 +2,7 @@ name: publish package
 
 on:
   release:
-    types: [created]
-  workflow_call:
+    types: [published]
 
 jobs:
   publish-package:
@@ -28,4 +27,3 @@ jobs:
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          
