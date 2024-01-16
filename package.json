@@ -1,5 +1,5 @@
 {
-  "name": "@collaterate/mock-fs",
+  "name": "@donovan-maas-tbg/mock-fs",
   "description": "A configurable mock file system.  You know, for testing.",
   "version": "5.2.0",
   "main": "lib/index.js",

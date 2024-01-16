@@ -21,6 +21,7 @@ jobs:
         with:
           node-version: 18
           registry-url: https://npm.pkg.github.com/
+          scope: "@donovan-maas-tbg"
           cache: "npm"
 
       - run: npm ci
